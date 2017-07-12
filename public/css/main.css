@@ -1,0 +1,18 @@
+ span.botao{
+	margin-right:  2px;
+	margin-left:  2px;
+	float:left;
+}
+
+
+.hidden{
+	display: none;
+
+}
+
+.btn-dismiss{
+	float: right;
+}
+body{
+	font-family: Arial, Times, sans-serif;
+}
