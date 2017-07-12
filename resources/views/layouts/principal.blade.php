@@ -36,16 +36,16 @@
                         </a>
                 </div>
                 <ul class='nav navbar-nav'>
-                    <li ><a href="@yield('path')/produtos">Produtos</a></li>
-                    <li ><a href="@yield('path')/clientes">Clientes</a></li>
-                    <li ><a href="@yield('path')/pedidos">Pedidos</a></li>
+                    <li ><a href="/produtos">Produtos</a></li>
+                    <li ><a href="/clientes">Clientes</a></li>
+                    <li ><a href="/pedidos">Pedidos</a></li>
                 </ul>
 
-                
+
             </div>
         </nav>
         <div class='container'>
-            
+
         @include('layouts.mensagem')
         @yield('content')
         </div>
